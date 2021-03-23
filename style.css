@@ -1,0 +1,34 @@
+#game{
+    border: solid 2px black;
+    width: 800px;
+    height: 90vh;
+    margin: auto;
+}
+#character{
+    background-color: red;
+    clip-path: circle();
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 5px;
+    right: 5px;
+    top: 100px;
+    z-index: 222;
+}
+.block{
+    background-color: black;
+    width: 800px;
+    height: 40px;
+    position: relative;
+    top: 100px;
+    margin-top: -40px;
+}
+.hole{
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    top: 100px;
+    margin-top: -40px;
+    z-index: 100;
+}
